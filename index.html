@@ -13,7 +13,6 @@
 
     function postMessageToiOS(postData) {
         console.log(postData)
-        console.log(JSON.parse(postData))
         window.webkit.messageHandlers.callBackHandler.postMessage(postData);
     }
 
